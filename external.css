@@ -1,0 +1,186 @@
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 130vh;
+}
+/* .navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #f8f8f8;
+} */
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 20px;
+  /* background-color: none;  */
+  font-size: 20px;      
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    font-family: orbitron, sans-serif;
+    font-weight: 500;
+    margin-right: 90px;
+    /* justify-content: space-between; */
+}
+.list li:hover{
+    /* color: #ff6347; */
+    font-weight: 650;
+    text-decoration: underline;
+}
+.button-group{
+    display: flex;
+    gap: 20px;
+}
+.search-icon{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.nav-button{
+    padding: 8px 35px;
+    /* border: none; */
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+/* .banner{
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+} */
+ .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 600px;
+    margin-top: 32px;
+ }
+        .hero-container .square{
+          display: flex;
+          position: absolute;
+          top:295px;
+          z-index: -1;
+          left: 150px;
+          height: 300px;
+          width: 250px;          
+        }
+        
+        .hero-container > div > img{
+ 
+          height: 500px;
+          width: 395px;
+ 
+        }
+        .hero-container .star:nth-of-type(2){
+          display: flex;
+          position: absolute;
+          top: 30px;
+          right: 30px;
+          height: 40px;
+          width: 50px;
+         /* star bold garney */
+          font-weight: 900;
+          /* color: #333;  */
+          filter: drop-shadow(0 0 1px #333);
+        }
+
+        .hero-container .star:nth-of-type(3){
+          display: flex;
+          position: absolute;
+          top: 480px;
+          left: 600px;
+          height:30px ;
+          width: 25px;
+          font-weight: 900;
+          filter: drop-shadow(0 0 1px #333);
+         
+        }
+ .hero-container .globe{
+          display: flex;
+          /* top:-20px; */
+          left:53%;
+          position: absolute;
+          /* width: 50px; */
+          height: 60px;
+          /* font-size: 10px; */
+          margin-top: -530px;
+       }
+
+
+    .hero-container .hero-container-right .hero-heading{
+        display: flex;
+        position: absolute;
+        left: 520px;
+        top: 95px;
+        width: auto;
+        font-size: 50px;
+        font-family: orbitron;
+       }
+       .hero-container .hero-container-right .hero-description{
+        display: flex;
+        position: absolute;
+        font-size: 11px;
+        font-family: poppins;
+        color: rgb(139, 139, 139);
+        top: 210px;
+        left: 640px;
+        width: 480px;
+       
+        text-align: center;
+
+      }
+
+    .hero-container .button-email{
+        display: flex;
+        position: absolute;
+        /* justify-content: center; */
+        padding: 2px 20px;
+        font-family: orbitron, sans-serif;
+        /* font-size: 200; */
+        color: rgb(94, 94, 94);
+        font-weight: 700;
+        border-radius: 6px;
+        width: fit-content;
+        
+        top:370px;
+        left: 750px; 
+
+      }
+
+      .hero-container .button-join{
+        display: flex;
+        position: absolute;
+        margin-left: 5px;
+        top:370px;
+        left: 910px;
+        padding: 2px 5px;
+        font-family: orbitron;
+        font-size: medium;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius:  6px;
+      }
+    .hero-container .contact-heading{
+        position:absolute;
+        top: 460px;
+        left: 850px;
+        color: rgb(94, 94, 94);
+        font-family: poppins, sans-serif;
+        font-weight: 600;
+      }
+      .hero-container .icons{
+        display: flex;
+        position: absolute;
+        top: 510px;
+        left: 805px;
+        gap: 10px;
+      }
